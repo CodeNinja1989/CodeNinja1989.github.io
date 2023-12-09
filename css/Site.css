@@ -20,7 +20,7 @@ h1 {
 
 img {
     display: block; /* Center the image horizontally */
-    margin-top: -90px
+    margin-top: -500px
 }
 
 p {
@@ -29,13 +29,42 @@ p {
 }
 
 
-select, button {
+select {
     margin: 10px; /* Add some space around select and button */
-
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    height: 40px; /* Adjust the height as needed */
 }
 
-#message {
-    font-size: 20px; /* Set the desired font size */
+button {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Adjust the padding as needed (top/bottom, left/right) */
+    height: 40px; /* Adjust the height as needed */
+}
+
+a#aboutLink {
+    font-size: 30px; /* Adjust the font size as needed */
+    text-decoration: underline; /* Add underline to the link */
+    margin-bottom: 600px; /* Move the link down from the header */
+    position: center; /* Use relative positioning */
+    z-index: 50; /* Place the link above other elements */
+    color: black; /*changed the link color to flow with site*/
+}
+
+#aboutInfo {
+    display: none; /* Hide the about information initially */
+    font-size: 10px; /* Adjust the font size to make it smaller */
+    text-align: center; /* Center-align the text */
+    position: absolute; /* Use absolute positioning */
+    background-color: bisque; /* Optional background color */
+    padding: 20px; /* Add padding to the information */
+    top: 0; /* Position it at the top */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it horizontally */
+}
+
+    #message {
+    font-size: 45px; /* Set the desired font size */
     font-weight: bold; /* Make the text bold */
 }
 
@@ -44,4 +73,3 @@ footer {
     padding: 20px 0; /* Adjust the values to control the space */
     background-color:bisque; /* Optional background color */
     text-align: center; /* Optional: center-align the content */
-}
