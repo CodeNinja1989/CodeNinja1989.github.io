@@ -1,0 +1,47 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+/* Add other styles for your page elements here */
+h1 {
+    text-align: center;
+    font-size: 150px;
+}
+
+img {
+    display: block; /* Center the image horizontally */
+    margin-top: -90px
+}
+
+p {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+select, button {
+    margin: 10px; /* Add some space around select and button */
+
+}
+
+#message {
+    font-size: 20px; /* Set the desired font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+footer {
+    padding: 20px 0; /* Adjust the values to control the space */
+    background-color:bisque; /* Optional background color */
+    text-align: center; /* Optional: center-align the content */
+}
